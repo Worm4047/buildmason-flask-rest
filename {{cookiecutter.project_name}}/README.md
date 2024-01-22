@@ -9,15 +9,6 @@ This is a simple Flask project for a REST API with user data.
 - Python 3.x
 - [Virtualenv](https://virtualenv.pypa.io/)
 
-### Installation
-
-Create virtual env and install necessary requirements
-```
-virtualenv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
-
 
 # {{cookiecutter.project_name}}
 This is a simple Flask REST API project with models, services, and a main application.
@@ -73,7 +64,7 @@ pip install -r requirements.txt
 
 ## Run the Flask app:
 ```
-(venv) ➜  MyFlaskRestApp python run.py
+(venv) ➜  python run.py
  * Serving Flask app 'app.app'
  * Debug mode: on
 WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
@@ -95,7 +86,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 ### Run the tests:
 ```
-(venv) ➜  MyFlaskRestApp pytest tests/
+(venv) ➜  pytest tests/
 ======================================================= test session starts =======================================================
 platform darwin -- Python 3.11.7, pytest-7.4.4, pluggy-1.3.0
 rootdir: /MyFlaskRestApp
