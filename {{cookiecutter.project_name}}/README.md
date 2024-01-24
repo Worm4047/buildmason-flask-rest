@@ -1,6 +1,6 @@
 # {{cookiecutter.project_name}}
 
-This is a simple Flask project for a REST API with user data.
+This is a simple Flask project for a REST API with user data. The project defines a user data model and creates/queries the data
 
 ## Getting Started
 
