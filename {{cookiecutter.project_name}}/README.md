@@ -9,10 +9,6 @@ This is a simple Flask project for a REST API with user data. The project define
 - Python 3.x
 - [Virtualenv](https://virtualenv.pypa.io/)
 
-
-# {{cookiecutter.project_name}}
-This is a simple Flask REST API project with models, services, and a main application.
-
 # Project Structure
 ```
 {{cookiecutter.project_name}}/
